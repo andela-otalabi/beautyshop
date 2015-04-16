@@ -1,0 +1,147 @@
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#cart img{
+	width: 100px;
+	height: 100px;
+}
+
+section img{
+height: 450px;
+width: 300px;
+}
+
+div {
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 150px;
+	background-color: #FF00CC;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+
+td{
+	border: 1px pink solid;
+
+}
+.left {
+	position: fixed;
+	float: left;
+	margin-top: 140px;
+	width: 40%;
+	background-color: white;
+	margin-bottom: 10px;
+	border: 3px pink solid;
+	border-radius: 5px;
+}
+
+  #cart {
+	position: relative;
+	float: right;
+	margin-top: 140px;
+	width: 400px;
+	height: 350px;
+	border-radius: 5px;
+	background-color: #FFCCFF;
+	margin-bottom: 10px;
+	margin-right: 350px;
+	border: 3px pink solid;
+	overflow: scroll;
+}
+
+  #order {
+	position: relative;
+	float: right;
+	width: 400px;
+	height: 90px;
+	background-color: #FFCCFF;
+	border: 3px pink solid;
+	margin-bottom: 10px;
+	margin-right: 350px;	
+	border-radius: 5px;
+}
+
+#tips {
+	position: relative;
+	border-radius: 5px;
+	float: right;
+	width: 300px;
+	height: 450px;
+	background-color: #FFCCFF;
+	border: 3px pink solid;
+	margin-bottom: 10px;
+	margin-top: -365px;
+	margin-right: -730px;
+	margin-left: 300px
+	border-radius: 5px;
+}
+
+li a{
+    text-decoration: none;
+    font-family: cursive
+}
+
+
+.right p{
+	font-size: 16px;
+	font-family: Verdana;
+	color: black;
+}
+
+div h2{
+	font-family: Verdana;
+	color: black;
+	font-size: 16px;
+}
+
+div a{
+	float:right;
+	margin-top: -100px;
+	margin-right: 100px;
+	font-family: Verdana;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	border: px;
+}
+
+a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div li{
+
+	font-family: Verdana;
+	font-size: 10px;
+	color: white
+	list-style-type: none;
+	display: inline;
+}
+
+button {
+	border-radius: 5px;
+	border: 2px solid;
+	background-color: purple;
+	height: 30px;
+	width: 100px;
+	margin: auto;
+	text-align: center;
+	}
+	 
+	button a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px
+	}
+
