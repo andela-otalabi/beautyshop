@@ -93,26 +93,24 @@ li a{
 
 .right p{
 	font-size: 16px;
-	font-family: Verdana;
+	font-family: Geramond;
 	color: black;
 }
 
 div h2{
-	font-family: Verdana;
+	font-family: Geramond;
 	color: black;
 	font-size: 16px;
 }
 
-div a{
-	float:right;
-	margin-top: -100px;
-	margin-right: 100px;
-	font-family: Verdana;
+div a{	
+	font-family: Geramond;
 	font-size: 16px;
 	color: black;
 	text-decoration: none;
 	border: px;
 }
+
 
 a:hover {
 	color: white;
@@ -120,13 +118,20 @@ a:hover {
 	text-decoration: none;
 }
 
-div li{
+#navbar{
+	margin-top: -100px;
+	margin-right: 100px;
+}
 
-	font-family: Verdana;
-	font-size: 10px;
+div li{
+  float:right;
+	font-family: Geramond;
+	font-size: 16px;
 	color: white
 	list-style-type: none;
 	display: inline;
+	margin-left: 10px;
+	margin-right: 10px
 }
 
 button {
