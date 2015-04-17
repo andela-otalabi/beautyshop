@@ -1,0 +1,139 @@
+.img-thumbnail {
+	width: 100px;
+	height: 100px;
+}
+
+#tips .img-thumbnail {
+	width: 400px;
+	height: 400px;
+}
+
+#cart img{
+	display:none;
+	border-radius: 5px;
+}
+
+section img{
+height: 450px;
+width: 300px;
+}
+
+div {
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+body{
+	background-color: black
+}
+td{
+	text-align: center;
+	color: white;
+}
+td:hover{
+	border: 1px ;
+	background-color: pink;
+	color: black;
+}
+.left {
+	position: fixed;
+	float: left;
+	margin-top: 140px;
+	width: 40%;
+	background-color: black;
+	margin-bottom: 10px;
+}
+
+#cart {
+	position: relative;
+	float: right;
+	margin-top: 180px;
+	width: 380px;
+	height: 350px;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-right: 400px;
+	border: 3px black solid;
+	overflow: scroll;
+}
+
+ #order {
+	position: relative;
+	float: right;
+	width: 380px;
+	height: 90px;
+	background-color: black;
+	border: 3px black solid;
+	margin-bottom: 10px;
+	margin-right: 400px;	
+	border-radius: 5px;
+}
+
+th{
+	color:white;
+}
+#tips {
+	position: relative;
+	border-radius: 5px;
+	float: right;
+	width: 310px;
+	height: 460px;
+	margin-bottom: 10px;
+	margin-top: -365px;
+	margin-right: -710px;
+	margin-left: 300px
+}
+
+.right p{
+	font-size: 16px;
+	font-family: Geramond;
+	color: white;
+}
+
+div h2{
+	font-family: Geramond;
+	color: black;
+	font-size: 16px;
+}
+
+div a{	
+	font-family: Geramond;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	border: px;
+}
+
+img{
+	cursor: move;
+}
+
+#navbar{
+	margin-top: -100px;
+	margin-right: 100px;
+}
+
+div li{
+  float:right;
+	font-family: Geramond;
+	font-size: 16px;
+	color: white
+	list-style-type: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+#cart li{
+	list-style-type: none;
+}
+

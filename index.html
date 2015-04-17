@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  <title>Beauty Shop</title>
+</head>
+<body> 
+  <div class="container-fluid">
+  <div id="header">
+    <img src="images/logo.jpg">
+    <h4><em><small>Cool brands. Hot prices!</small></em></h4>
+    <hr>  
+  </div>
+  </head>
+  <div class="left">
+    <table id="products" class="table table-hover">
+      <thead>
+        <th colspan="3">Products</th>
+      </thead>
+        <tr>
+          <td id="1" data-price="5000" data-name="M.A.C Powder"><img src="images/macpowder.jpg" class="img-thumbnail"></br>M.A.C Powder</br>N5000</td>
+          <td id="2" data-price="3000" data-name="Urban Decay Eyeshadow"><img src="images/urbandecay eyeshadow.jpg" class="img-thumbnail"></br>Urban Decay Eyeshadow </br>N3000</td>
+          <td id="3" data-price="800" data-name="Blinc Eyeliner Pencil"><img src="images/blinceyeliner_pencil.jpg" class="img-thumbnail"></br>Blinc Eyeliner Pencil</br>N800</td>
+        </tr>
+        <tr>
+          <td id="4" data-price="10000" data-name="Sigma Beauty Brushes"><img src="images/brushes.jpg" class="img-thumbnail"></br>Sigma Beauty Brushes</br>N10000</td>
+          <td id="5" data-price="3500" data-name="Black|Up Lipstick"><img src="images/lipstick.jpg" class="img-thumbnail"></br>Black|Up Lipstick </br>N3500</td>
+          <td id="6" data-price="4000" data-name="Inglot Blush"><img src="images/inglotblush.jpg" class="img-thumbnail"></br>Inglot Blush</br>N4000</td>
+        </tr>
+        <tr>
+          <td id="7" data-price="1500" data-name="Maybelline Mascara"><img src="images/mascara.jpg" class="img-thumbnail" ></br>Maybelline Mascara </br>N1500</td>
+          <td id="8" data-price="7000" data-name="Black|Up Foundation"><img src="images/blackupfoundation.jpg" class="img-thumbnail"></br>Black|Up Foundation </br>N7000</td>
+          <td id="9" data-price="1200" data-name="Mary Kay Eye primer"><img src="images/eyeprimer.jpg" class="img-thumbnail"></br>Mary Kay Eye primer </br>N1200</td>
+        </tr>                  
+    </table>
+  </div>
+  <section id="cart" class="right">
+    <h2><strong>Cart</strong></h2>
+    <h4><small>Drag Products Here</small></h4>
+    <ul id="prods">
+    </ul>       
+  </section>
+  <section id="order" class="right">
+    <p>Order Total:&nbsp;<span id="total"></span></p>
+    <a href="file:///C:/wamp/www/BeautyShop/checkout.html" class="btn btn-default">Checkout</a> 
+    <button type="button" id="clear" class="btn btn-primary">Clear Cart</button>  
+  </section>
+  <section id="tips">
+    <img id="myPhoto" src="images/tips5.jpg" alt="images/tips4.jpg" class="img-thumbnail" />
+  </section>
+<script type="text/javascript" src="js/beautyscript.js"></script>
+</div>
+</body>
+</html>
