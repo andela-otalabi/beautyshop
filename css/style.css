@@ -64,6 +64,7 @@ td:hover{
 	margin-right: 400px;
 	border: 3px black solid;
 	overflow: scroll;
+	padding-left: 15px
 }
 
  #order {
